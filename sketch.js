@@ -69,7 +69,6 @@ function readStock(data){
   }
 
 
-//function to add food in stock
 function addFoods(){
   foodS++;
   database.ref('/').update({
